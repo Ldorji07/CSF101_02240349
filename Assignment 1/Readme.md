@@ -36,15 +36,15 @@ python dzongkha_spell_checker.py input_file.txt
 - And lastly Creating spell checker by comparing two txt file and finding the difference between the txt file and running it as an incorrect word by showing line number and the word 
 
 ## Data Structure
-- dzongkha_spell_checker.py
+- spelling_checker.py
 Set: For storing unique reference words from the cleaned dictionary for fast lookup.
 List: For holding words extracted from each line of the input file during iteration.
 String: For handling and processing the lines read from the input file.
 
-- txt conveter.py
+- docx-txt conveter.py
 Strings: For storing file names and the content extracted from the .docx file.
 
-- txt downloader.py
+- txt input.py
 Strings: For storing the URL and the text content of the HTTP response.
 
 - cleaner.py
